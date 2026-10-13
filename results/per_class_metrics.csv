@@ -1,0 +1,16 @@
+Model,Student ID,Precision,Recall,F1-score,Support
+CNN,Amit,1.0,1.0,1.0,8
+CNN,Shreejal,1.0,1.0,1.0,7
+CNN,Susman,1.0,1.0,1.0,8
+CNN,Udhav,1.0,1.0,1.0,8
+CNN,Uttam,1.0,1.0,1.0,7
+RNN,Amit,1.0,1.0,1.0,8
+RNN,Shreejal,1.0,1.0,1.0,7
+RNN,Susman,1.0,1.0,1.0,8
+RNN,Udhav,1.0,1.0,1.0,8
+RNN,Uttam,1.0,1.0,1.0,7
+LSTM,Amit,1.0,1.0,1.0,8
+LSTM,Shreejal,1.0,0.8571428571428571,0.9230769230769231,7
+LSTM,Susman,1.0,1.0,1.0,8
+LSTM,Udhav,1.0,1.0,1.0,8
+LSTM,Uttam,0.875,1.0,0.9333333333333333,7

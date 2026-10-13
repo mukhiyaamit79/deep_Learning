@@ -1,0 +1,16 @@
+Model,Class,AUC-ROC (OvR)
+CNN,Amit,1.0
+CNN,Shreejal,1.0
+CNN,Susman,1.0
+CNN,Udhav,1.0
+CNN,Uttam,1.0
+RNN,Amit,1.0
+RNN,Shreejal,1.0
+RNN,Susman,1.0
+RNN,Udhav,1.0
+RNN,Uttam,1.0
+LSTM,Amit,1.0
+LSTM,Shreejal,1.0
+LSTM,Susman,1.0
+LSTM,Udhav,1.0
+LSTM,Uttam,1.0

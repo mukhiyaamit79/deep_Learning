@@ -1,0 +1,13 @@
+# Only what the web app needs (no notebook packages). Use this on a computer WITHOUT an NVIDIA GPU:
+#     python -m pip install -r requirements-app.txt
+# pip installs the normal (CPU) PyTorch build from PyPI; the app then runs the trained CNN on the CPU.
+# On the Anaconda/CUDA computer prefer:  python project_setup.py   (keeps the CUDA build of torch).
+torch>=2.10,<3
+numpy>=1.26,<3
+pandas>=2.2,<3
+Pillow>=10.4,<13
+opencv-python>=4.10,<5
+streamlit>=1.52,<2
+streamlit-webrtc>=0.78,<1
+plotly>=5.24,<7
+tzdata>=2024.1

@@ -1,0 +1,325 @@
+{
+  "created_utc": "2026-10-12T14:57:25.946509+00:00",
+  "model_comparison": [
+    {
+      "Model": "CNN",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-score": 1.0,
+      "Weighted Precision": 1.0,
+      "Weighted Recall": 1.0,
+      "Weighted F1-score": 1.0,
+      "Test Loss": 0.0009190520351311486,
+      "Parameters": 303589,
+      "Training Time (s)": 30.332142100000056,
+      "Inference Time (ms/image)": 2.1627999999509484,
+      "Batch Time (ms)": 18.779650000169568,
+      "Batch Throughput (images/s)": 1703.972118740821,
+      "AUC-ROC (macro OvR)": 1.0,
+      "AUC-ROC (micro OvR)": 1.0
+    },
+    {
+      "Model": "RNN",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-score": 1.0,
+      "Weighted Precision": 1.0,
+      "Weighted Recall": 1.0,
+      "Weighted F1-score": 1.0,
+      "Test Loss": 0.37397402054385137,
+      "Parameters": 21381,
+      "Training Time (s)": 3.322911799999929,
+      "Inference Time (ms/image)": 0.3933000000415632,
+      "Batch Time (ms)": 0.4308499999297055,
+      "Batch Throughput (images/s)": 74271.78833752093,
+      "AUC-ROC (macro OvR)": 1.0,
+      "AUC-ROC (micro OvR)": 1.0
+    },
+    {
+      "Model": "LSTM",
+      "Accuracy": 0.9736842105263158,
+      "Precision": 0.975,
+      "Recall": 0.9714285714285715,
+      "F1-score": 0.9712820512820514,
+      "Weighted Precision": 0.9769736842105263,
+      "Weighted Recall": 0.9736842105263158,
+      "Weighted F1-score": 0.973549257759784,
+      "Test Loss": 0.2996491209456795,
+      "Parameters": 58629,
+      "Training Time (s)": 2.605237400000078,
+      "Inference Time (ms/image)": 0.6977499999720749,
+      "Batch Time (ms)": 0.72190000014416,
+      "Batch Throughput (images/s)": 44327.4691697046,
+      "AUC-ROC (macro OvR)": 1.0,
+      "AUC-ROC (micro OvR)": 0.9998268698060943
+    }
+  ],
+  "roc_auc_per_class": [
+    {
+      "Model": "CNN",
+      "Class": "Amit",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "CNN",
+      "Class": "Shreejal",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "CNN",
+      "Class": "Susman",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "CNN",
+      "Class": "Udhav",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "CNN",
+      "Class": "Uttam",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "RNN",
+      "Class": "Amit",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "RNN",
+      "Class": "Shreejal",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "RNN",
+      "Class": "Susman",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "RNN",
+      "Class": "Udhav",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "RNN",
+      "Class": "Uttam",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "LSTM",
+      "Class": "Amit",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "LSTM",
+      "Class": "Shreejal",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "LSTM",
+      "Class": "Susman",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "LSTM",
+      "Class": "Udhav",
+      "AUC-ROC (OvR)": 1.0
+    },
+    {
+      "Model": "LSTM",
+      "Class": "Uttam",
+      "AUC-ROC (OvR)": 1.0
+    }
+  ],
+  "majority_baseline": {
+    "Model": "Majority training class",
+    "Accuracy": 0.21052631578947367,
+    "Precision": 0.042105263157894736,
+    "Recall": 0.2,
+    "F1-score": 0.06956521739130435,
+    "Weighted Precision": 0.0443213296398892,
+    "Weighted Recall": 0.21052631578947367,
+    "Weighted F1-score": 0.07322654462242563,
+    "Test Loss": null
+  },
+  "classification_reports": {
+    "CNN": {
+      "Amit": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Shreejal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "Susman": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Udhav": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Uttam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      }
+    },
+    "RNN": {
+      "Amit": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Shreejal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "Susman": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Udhav": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Uttam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      }
+    },
+    "LSTM": {
+      "Amit": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Shreejal": {
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.9230769230769231,
+        "support": 7.0
+      },
+      "Susman": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Udhav": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Uttam": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1-score": 0.9333333333333333,
+        "support": 7.0
+      },
+      "accuracy": 0.9736842105263158,
+      "macro avg": {
+        "precision": 0.975,
+        "recall": 0.9714285714285715,
+        "f1-score": 0.9712820512820514,
+        "support": 38.0
+      },
+      "weighted avg": {
+        "precision": 0.9769736842105263,
+        "recall": 0.9736842105263158,
+        "f1-score": 0.973549257759784,
+        "support": 38.0
+      }
+    }
+  },
+  "observed_test_leaders": [
+    "CNN",
+    "RNN"
+  ],
+  "deployment_decision": {
+    "architecture": "CNN",
+    "configuration": "Larger Batch",
+    "selection_rule": "CNN family predefined; restored validation accuracy descending, validation loss ascending; parameters then name break exact ties",
+    "validation_accuracy": 1.0,
+    "validation_loss": 0.0013350604567676783,
+    "parameters": 303589,
+    "timing": {
+      "Inference Time (ms/image)": 2.1627999999509484,
+      "Batch Time (ms)": 18.779650000169568,
+      "Batch Throughput (images/s)": 1703.972118740821
+    },
+    "test_used_for_selection": false,
+    "status": "Academic demonstration candidate; no independent field validation"
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "python": "3.12.7",
+    "pytorch": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cudnn": 91002,
+    "device": "cuda:0",
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "gpu_memory_bytes": 4294443008,
+    "repetitions": 20,
+    "warmups": 3,
+    "batch_size": 32,
+    "inference_mode": "eager float32, softmax included, CUDA synchronized",
+    "transfer_included": false,
+    "preprocessing_included": false
+  },
+  "split_protocol": "stratified image-level 70/15/15",
+  "seed": 42,
+  "cnn_search_runs": 5,
+  "rnn_search_runs": 1,
+  "lstm_search_runs": 1
+}

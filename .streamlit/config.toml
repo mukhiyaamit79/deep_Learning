@@ -1,0 +1,14 @@
+[server]
+# This computer only. The webcam works on http://localhost without HTTPS.
+address = "localhost"
+port = 8501
+headless = false
+runOnSave = false
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#1c5cab"
+font = "sans serif"

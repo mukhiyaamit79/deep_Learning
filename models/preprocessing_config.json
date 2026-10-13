@@ -1,0 +1,14 @@
+{
+  "height": 128,
+  "width": 128,
+  "channels": 1,
+  "color_mode": "L",
+  "resize": "bilinear",
+  "normalization_divisor": 255.0,
+  "dtype": "float32",
+  "input_layout": "NCHW",
+  "preprocessed_array_layout": "HWC",
+  "confidence_threshold": 0.9,
+  "consistent_frames": 8,
+  "threshold_status": "Predefined demonstration heuristic; not calibrated or open-set validated"
+}
